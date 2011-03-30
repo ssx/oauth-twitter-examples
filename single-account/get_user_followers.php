@@ -66,7 +66,7 @@ try {
 	// Process our array of data and then output an HTML table from here. You
 	// could do a number of other things here, such as storing in a database,
 	// output images or more.
-	echo "Total in members array: ".number_format(count($members))." people\n";
+	echo "Total in members array: ".number_format(count($followers))." people\n";
 	
 	// Create a basic page then generate the HTML to fill a table in this example
 	// with all of the followers
