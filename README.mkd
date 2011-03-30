@@ -1,0 +1,10 @@
+OAuth Examples: Twitter API
+===========================
+
+This is a set of PHP based scripts that will perform various tasks with the Twitter API such as posting a status, outputting a Twitter List to a HTML file, Add @username to a list and other common tasks. The set is split into two parts, for single account use and for multiple users.
+
+The documentation for these scripts is mostly inline. They are discussed at [http://dor.ky/code/oauth-examples](http://dor.ky/code/oauth-examples)
+
+Live examples of these scripts can be found at: [http://example.dor.ky/oauth/twitter/](http://example.dor.ky/oauth/twitter/)
+
+You can find more about the licensing of these scripts at [http://dor.ky/licensing](http://dor.ky/licensing) and if you have any questions, please contact me at [scott@dor.ky](mailto:scott@dor.ky)
