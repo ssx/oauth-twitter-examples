@@ -86,11 +86,11 @@ try {
 	*/
 	
 	// Or build a mosaic of your followers
-	$page = "<html><body>List: $list<br /><table style=\"width: 700px\"><tr>"; $row = 0;
+	$page = "<html><body>";
 	foreach ($followers as $follower) {
 		$page .= "<img style=\"width: 48px\" src=\"".$follower->profile_image_url."\" alt=\"@".$follower->screen_name."\" />";
 	}
-	$page .= "</table></body></html>";	
+	$page .= "</body></html>";	
 	
 	// Write the followers HTML to a file
 	file_put_contents(FILENAME,$page);
