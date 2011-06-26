@@ -10,9 +10,9 @@
 //	
 // First, require the excellent twitter-async library by Jaisen Mathai. You can read
 // more about this library at https://github.com/jmathai/twitter-async
-require "../library/EpiCurl.php";
-require "../library/EpiOAuth.php";
-require "../library/EpiTwitter.php";
+require "../twitter-async/EpiCurl.php";
+require "../twitter-async/EpiOAuth.php";
+require "../twitter-async/EpiTwitter.php";
 
 // You need to replace the values in this file with those found in your application 
 // settings. Sign in to the Twitter developer site at https://dev.twitter.com/apps and
