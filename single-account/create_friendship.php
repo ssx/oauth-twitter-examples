@@ -27,10 +27,11 @@ define("OAUTH_TOKEN_SECRET","XVPkIns0m4darfPxqoWWVho3UxCieAOdoZ5VhLZhuN4");
 
 // Place all interaction within a try/catch block
 try {
-	// Send the request off to get the authenticated users favourited tweets
+	// Send a request to the API to create a new friendship (follow a user)
 	$twitterObj = new EpiTwitter(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
 	$reply = $twitterObj->post("/friendships/create.json", array("user_id" => "1401881"));
 
+	// Dump out the user data block
 	echo "<pre>";
 	echo var_dump($reply);
 	echo "</pre>";
